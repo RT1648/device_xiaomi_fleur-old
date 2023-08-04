@@ -58,10 +58,6 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
-# Audio Blob
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/blobs/audio.primary.mt6781.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6781.so
-
 # Bootctrl
 PRODUCT_PACKAGES += \
     bootctrl.default \
