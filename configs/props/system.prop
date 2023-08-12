@@ -36,6 +36,9 @@ ro.surface_flinger.supports_background_blur=0
 
 # Camera
 ro.camera.sound.forced=0
+vendor.camera.aux.packagelist=org.lineageos.snap,com.android.camera
+persist.vendor.camera.privapp.list=com.android.camera
+ro.miui.notch=1 
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
