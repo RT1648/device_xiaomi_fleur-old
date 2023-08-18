@@ -7,3 +7,7 @@ allow system_suspend sysfs:file { read open getattr };
 allow system_suspend block_device:dir { search };
 
 allow system_suspend sysfs_batteryinfo:file { read };
+
+allow system_suspend sysfs_batteryinfo:dir { read open };
+
+allow system_suspend sysfs_batteryinfo:file { getattr open read };
