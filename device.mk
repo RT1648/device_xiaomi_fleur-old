@@ -82,6 +82,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V4
 
+# BessLoudness
+PRODUCT_PACKAGES += \
+    BesLoudness \
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
