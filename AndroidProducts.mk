@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/colt_fleur.mk
+    $(LOCAL_DIR)/octavi_fleur.mk
 
 COMMON_LUNCH_CHOICES := \
-    colt_fleur-user \
-    colt_fleur-userdebug \
-    colt_fleur-eng
+    octavi_fleur-user \
+    octavi_fleur-userdebug \
+    octavi_fleur-eng
