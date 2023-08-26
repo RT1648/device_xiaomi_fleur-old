@@ -9,7 +9,7 @@ $(call inherit-product, vendor/colt/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Build Flags
-COLT_BUILD_MAINTAINER := RohitTiwari
+COLT_BUILD_MAINTAINER := Rohit-Tiwari
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_SUPPORTS_NOW_PLAYING := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
