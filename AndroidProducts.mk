@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/colt_fleur.mk
+    $(LOCAL_DIR)/bliss_fleur.mk
 
 COMMON_LUNCH_CHOICES := \
-    colt_fleur-user \
-    colt_fleur-userdebug \
-    colt_fleur-eng
+    bliss_fleur-user \
+    bliss_fleur-userdebug \
+    bliss_fleur-eng
