@@ -94,6 +94,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V4
 
+# FMRadio
+BOARD_HAVE_MTK_FM := true
+PRODUCT_PACKAGES += \
+    libfmjni \
+    FMRadio
+
 # ImsInit hack
 PRODUCT_PACKAGES += \
     ImsInit
