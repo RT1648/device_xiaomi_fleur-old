@@ -190,7 +190,7 @@ PRODUCT_PACKAGES += \
     FleurSettingsProviderOverlay \
     FleurpSettingsProviderOverlay \
     MielSettingsProviderOverlay \
-    MielpSettingsProviderOverlay
+    MielpSettingsProviderOverlay \
     SettingsLibOverlayFleur \
     SimpleDeviceConfigOverlayFleur
 
@@ -214,9 +214,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
         ro.debuggable=1 \
         persist.service.adb.enable=1 \
         persist.sys.usb.config=adb,mtp
-# Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
