@@ -186,7 +186,7 @@ PRODUCT_PACKAGES += \
     FleurSettingsProviderOverlay \
     FleurpSettingsProviderOverlay \
     MielSettingsProviderOverlay \
-    MielpSettingsProviderOverlay
+    MielpSettingsProviderOverlay \
     SettingsLibOverlayFleur \
     SimpleDeviceConfigOverlayFleur
 
